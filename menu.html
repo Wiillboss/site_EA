@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Serviços</title>
+    <link rel="stylesheet" href="css-lab.css">
+    <link rel="stylesheet" href="css-formulario.css">
+</head>
+<body>
+    <header>
+        <picture>
+            <!-- <source media="(max-width: 600px)" srcset="imagens-logos/Logo_Amarela-pequenaTeste.png"> -->
+            <img src="imagens-logos/Logo_AmarelaTeste1000.jpg" alt="Logo da empresa">
+        </picture>
+    </header>
+    <main>
+        <h1 id="primeiro">Formulário 1</h1>
+            <form action="destino.php" method="POST">
+
+                <label for="label">Resina - PT - PPR - PPA - Flexível</label>
+                
+                <select name="servID" id="servID">
+                    <option value="1">Moldeira Individual</option>
+                    <option value="2">Plano em Cera</option>
+                    <option value="3">Montagem de PT, PPR, PPA ou Flexível</option>
+                    <option value="4">Acrilização de PT, PPR ou PPA</option>
+                    <option value="5">Acrilização caraterizada de PT, PPR ou PPA</option>
+                    <option value="6">Injeção de Flexível</option>
+                    <option value="7">Provisório Resina Nacional</option>
+                    <option value="8">Consertos</option> 
+                </select>
+
+                <label for="label">Placa e Protetores</label>
+                
+                <select name="servID" id="servID">
+                    <option value="1">Placa de Bruxismo Acrilica</option>
+                    <option value="2">Placa de Bruxismo Silicone e Acetato</option>
+                    <option value="3">Placa de Clareamento</option>
+                    <option value="4">Protetor Bucal</option>
+                </select>
+
+                <label for="label">Cromo</label>
+                
+                <select name="servID" id="servID">
+                    <option value="1">Armação Metálica</option>
+                </select>
+
+                
+
+                <label for="label">Cerâmica</label>
+                
+                <select name="servID" id="servID">
+                    <option value="1">Enceramento para Diagnóstico</option>
+                    <option value="2">Aplicação de Cerâmica sobre Coping Metálico</option>
+                    <option value="3">Aplicação de Cerâmica sobre Implante</option>
+                    <option value="4">Emax, Coroa Total, Inlay, Onlay, Faceta Laminada</option>
+                </select>
+
+        
+
+                <label for="label">Resina Foto</label>
+                
+                <select name="servID" id="servID">
+                    <option value="1">Aplicação sobre Coping</option>
+                    <option value="2">Coroa pura Inlay, Onlay, Faceta Laminada</option>
+                    <option value="3">Provisório Resina Foto</option>
+                    <option value="4">Provisório Resina Foto sobre Implante</option>
+                </select>
+
+                
+
+                <label for="label">Estrutura Metálica</label>
+                
+                <select name="servID" id="servID">
+                    <option value="1">Coping para Metalocerâmica</option>
+                    <option value="2">Coroa Total, Inlay, Onlay</option>
+                    <option value="3">COroa Venner</option>
+                    <option value="4">Núcleo Simples ou Bipartido</option>
+                </select>
+
+                
+
+                <label for="label">Estrutura Metálica sobre Implante, Protocolo e Overdenture</label>
+                
+                <select name="servID" id="servID">
+                    <option value="1">Coping Cimentado ou Parafusado</option>
+                    <option value="2">Fundição de Ucia</option>
+                    <option value="3">Pontos de Solda a Laser</option>
+                    <option value="4">Montagem de Overdenture</option>
+                    <option value="5">Montagem de Protocolo</option>
+                    <option value="6">Acrilização de Overdenture</option>
+                    <option value="7">Acrilização de Protocolo</option>
+                    <option value="8">Clip ou Oring (capturação)</option>
+                    <option value="9">Barra de Overdenture</option>
+                    <option value="10">Barra de Protocolo (por implante)</option>
+                </select>
+
+                <input type="submit" id="botao" value="Entra">
+
+            </form>
+            
+        <h1 id="segundo">Formulário 2</h1>
+            <form action="destion.php" method="POST">
+                <label for="label">Escolha a categoria.</label>    
+                <select name="servID" id="servID">
+                    <option value="0">Escolha aqui.</option>
+                    <option value="1">Resina - PT - PPR - PPA - Flexível</option>
+                    <option value="2">Placa e Protetores</option>
+                    <option value="3">Cromo</option>
+                    <option value="4">Cerâmica</option>
+                    <option value="5">Resina Foto</option>
+                    <option value="6">Estrutura Metálica</option>
+                    <option value="7">Estrutura Metálica sobre Implante, Protocolo e Overdenture</option>    
+                </select>
+
+                <input type="submit" id="botao" value="Entra">
+
+            </form>
+
+    </main>
+    <footer>
+        Site criado por Willian Santos para o Laboratório EA.
+    </footer>
+</body>
+</html>
