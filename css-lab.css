@@ -29,6 +29,7 @@ header{
 } */
 
 main{
+    padding: 1px;
     width:auto;
     height:auto;
     margin: auto;
@@ -38,6 +39,10 @@ main{
     display: table;
     clear: both;
     border-radius: 10px 10px -0px -0px;
+}
+
+.ajuste{
+    margin:10px;
 }
 
 .ajuste-botao{
